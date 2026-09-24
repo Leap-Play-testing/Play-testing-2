@@ -1,6 +1,6 @@
 leapwork.configuration({
   enableSelfHeal: true,
-  timeoutMs: 5000,
+  timeoutMs: 60000,
   chromiumArgs: [],
   chromiumPrefs: {}
 });
