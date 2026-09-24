@@ -1,33 +1,33 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-24T11:53:20.902Z",
+  "generatedAt": "2026-09-24T12:42:24.505Z",
   "repo": {
-    "connectorId": 133,
+    "connectorId": 4,
     "repoSlug": "Leap-Play-testing/Play-testing-2",
     "baseBranch": "main"
   },
   "team": {
-    "assetId": 13449,
+    "assetId": 80,
     "displayId": "TM-1",
-    "name": "salesforce"
+    "name": "Team 2"
   },
   "tree": [
     {
-      "assetId": 13515,
-      "displayId": "TS-2",
-      "name": "New recording adapter",
+      "assetId": 104,
+      "displayId": "TS-1",
+      "name": "CM Testing",
       "kind": "typescript",
-      "repoPath": "TS-2-New-recording-adapter.ts"
+      "repoPath": "TS-1-CM-Testing.ts"
     }
   ],
   "files": [
     {
-      "assetId": 13515,
+      "assetId": 104,
       "assetKind": "typescript",
-      "displayId": "TS-2",
-      "name": "New recording adapter",
-      "repoPath": "TS-2-New-recording-adapter.ts",
-      "parentAssetId": 13449
+      "displayId": "TS-1",
+      "name": "CM Testing",
+      "repoPath": "TS-1-CM-Testing.ts",
+      "parentAssetId": 80
     }
   ]
 }
