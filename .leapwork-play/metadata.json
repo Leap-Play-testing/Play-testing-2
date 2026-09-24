@@ -1,48 +1,33 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-24T13:06:01.075Z",
+  "generatedAt": "2026-09-24T16:08:58.526Z",
   "repo": {
-    "connectorId": 4,
+    "connectorId": 5,
     "repoSlug": "Leap-Play-testing/Play-testing-2",
     "baseBranch": "main"
   },
   "team": {
-    "assetId": 80,
+    "assetId": 1,
     "displayId": "TM-1",
-    "name": "Team 2"
+    "name": "My Team"
   },
   "tree": [
     {
-      "assetId": 104,
-      "displayId": "TS-1",
-      "name": "CM Testing",
+      "assetId": 60,
+      "displayId": "TS-17",
+      "name": "New typescript",
       "kind": "typescript",
-      "repoPath": "TS-1-CM-Testing.ts"
-    },
-    {
-      "assetId": 105,
-      "displayId": "TS-2",
-      "name": "CM",
-      "kind": "typescript",
-      "repoPath": "TS-2-CM.ts"
+      "repoPath": "TS-17-New-typescript.ts"
     }
   ],
   "files": [
     {
-      "assetId": 104,
+      "assetId": 60,
       "assetKind": "typescript",
-      "displayId": "TS-1",
-      "name": "CM Testing",
-      "repoPath": "TS-1-CM-Testing.ts",
-      "parentAssetId": 80
-    },
-    {
-      "assetId": 105,
-      "assetKind": "typescript",
-      "displayId": "TS-2",
-      "name": "CM",
-      "repoPath": "TS-2-CM.ts",
-      "parentAssetId": 80
+      "displayId": "TS-17",
+      "name": "New typescript",
+      "repoPath": "TS-17-New-typescript.ts",
+      "parentAssetId": 1
     }
   ]
 }
