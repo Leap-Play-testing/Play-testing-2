@@ -1,78 +1,33 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-25T05:20:20.752Z",
+  "generatedAt": "2026-09-25T10:21:44.457Z",
   "repo": {
-    "connectorId": 4,
+    "connectorId": 1,
     "repoSlug": "Leap-Play-testing/Play-testing-2",
     "baseBranch": "main"
   },
   "team": {
-    "assetId": 80,
+    "assetId": 82,
     "displayId": "TM-1",
-    "name": "Team 2"
+    "name": "New team"
   },
   "tree": [
     {
-      "assetId": 106,
-      "displayId": "TS-3",
-      "name": "Chat n MCP",
-      "kind": "typescript",
-      "repoPath": "TS-3-Chat-n-MCP.ts"
-    },
-    {
-      "assetId": 104,
-      "displayId": "TS-1",
-      "name": "CM Testing",
-      "kind": "typescript",
-      "repoPath": "TS-1-CM-Testing.ts"
-    },
-    {
-      "assetId": 105,
-      "displayId": "TS-2",
-      "name": "CM",
-      "kind": "typescript",
-      "repoPath": "TS-2-CM.ts"
-    },
-    {
-      "assetId": 107,
-      "displayId": "TS-4",
-      "name": "new-testing",
-      "kind": "typescript",
-      "repoPath": "TS-4-new-testing.ts"
+      "assetId": 88,
+      "displayId": "TC-2",
+      "name": "New test case",
+      "kind": "test-case",
+      "repoPath": "TC-2-New-test-case.spec.ts"
     }
   ],
   "files": [
     {
-      "assetId": 104,
-      "assetKind": "typescript",
-      "displayId": "TS-1",
-      "name": "CM Testing",
-      "repoPath": "TS-1-CM-Testing.ts",
-      "parentAssetId": 80
-    },
-    {
-      "assetId": 105,
-      "assetKind": "typescript",
-      "displayId": "TS-2",
-      "name": "CM",
-      "repoPath": "TS-2-CM.ts",
-      "parentAssetId": 80
-    },
-    {
-      "assetId": 106,
-      "assetKind": "typescript",
-      "displayId": "TS-3",
-      "name": "Chat n MCP",
-      "repoPath": "TS-3-Chat-n-MCP.ts",
-      "parentAssetId": 80
-    },
-    {
-      "assetId": 107,
-      "assetKind": "typescript",
-      "displayId": "TS-4",
-      "name": "new-testing",
-      "repoPath": "TS-4-new-testing.ts",
-      "parentAssetId": 80
+      "assetId": 88,
+      "assetKind": "test-case",
+      "displayId": "TC-2",
+      "name": "New test case",
+      "repoPath": "TC-2-New-test-case.spec.ts",
+      "parentAssetId": 82
     }
   ]
 }
