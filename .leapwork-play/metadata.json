@@ -1,33 +1,78 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-24T16:08:58.526Z",
+  "generatedAt": "2026-09-25T05:20:20.752Z",
   "repo": {
-    "connectorId": 5,
+    "connectorId": 4,
     "repoSlug": "Leap-Play-testing/Play-testing-2",
     "baseBranch": "main"
   },
   "team": {
-    "assetId": 1,
+    "assetId": 80,
     "displayId": "TM-1",
-    "name": "My Team"
+    "name": "Team 2"
   },
   "tree": [
     {
-      "assetId": 60,
-      "displayId": "TS-17",
-      "name": "New typescript",
+      "assetId": 106,
+      "displayId": "TS-3",
+      "name": "Chat n MCP",
       "kind": "typescript",
-      "repoPath": "TS-17-New-typescript.ts"
+      "repoPath": "TS-3-Chat-n-MCP.ts"
+    },
+    {
+      "assetId": 104,
+      "displayId": "TS-1",
+      "name": "CM Testing",
+      "kind": "typescript",
+      "repoPath": "TS-1-CM-Testing.ts"
+    },
+    {
+      "assetId": 105,
+      "displayId": "TS-2",
+      "name": "CM",
+      "kind": "typescript",
+      "repoPath": "TS-2-CM.ts"
+    },
+    {
+      "assetId": 107,
+      "displayId": "TS-4",
+      "name": "new-testing",
+      "kind": "typescript",
+      "repoPath": "TS-4-new-testing.ts"
     }
   ],
   "files": [
     {
-      "assetId": 60,
+      "assetId": 104,
       "assetKind": "typescript",
-      "displayId": "TS-17",
-      "name": "New typescript",
-      "repoPath": "TS-17-New-typescript.ts",
-      "parentAssetId": 1
+      "displayId": "TS-1",
+      "name": "CM Testing",
+      "repoPath": "TS-1-CM-Testing.ts",
+      "parentAssetId": 80
+    },
+    {
+      "assetId": 105,
+      "assetKind": "typescript",
+      "displayId": "TS-2",
+      "name": "CM",
+      "repoPath": "TS-2-CM.ts",
+      "parentAssetId": 80
+    },
+    {
+      "assetId": 106,
+      "assetKind": "typescript",
+      "displayId": "TS-3",
+      "name": "Chat n MCP",
+      "repoPath": "TS-3-Chat-n-MCP.ts",
+      "parentAssetId": 80
+    },
+    {
+      "assetId": 107,
+      "assetKind": "typescript",
+      "displayId": "TS-4",
+      "name": "new-testing",
+      "repoPath": "TS-4-new-testing.ts",
+      "parentAssetId": 80
     }
   ]
 }
