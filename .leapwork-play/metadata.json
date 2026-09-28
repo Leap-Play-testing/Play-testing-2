@@ -1,33 +1,48 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-25T10:21:44.457Z",
+  "generatedAt": "2026-09-28T09:21:07.039Z",
   "repo": {
-    "connectorId": 1,
+    "connectorId": 4,
     "repoSlug": "Leap-Play-testing/Play-testing-2",
     "baseBranch": "main"
   },
   "team": {
-    "assetId": 82,
+    "assetId": 80,
     "displayId": "TM-1",
-    "name": "New team"
+    "name": "Team 2"
   },
   "tree": [
     {
-      "assetId": 88,
-      "displayId": "TC-2",
-      "name": "New test case",
-      "kind": "test-case",
-      "repoPath": "TC-2-New-test-case.spec.ts"
+      "assetId": 106,
+      "displayId": "TS-3",
+      "name": "Chat n MCP",
+      "kind": "typescript",
+      "repoPath": "TS-3-Chat-n-MCP.ts"
+    },
+    {
+      "assetId": 105,
+      "displayId": "TS-2",
+      "name": "CM",
+      "kind": "typescript",
+      "repoPath": "TS-2-CM.ts"
     }
   ],
   "files": [
     {
-      "assetId": 88,
-      "assetKind": "test-case",
-      "displayId": "TC-2",
-      "name": "New test case",
-      "repoPath": "TC-2-New-test-case.spec.ts",
-      "parentAssetId": 82
+      "assetId": 105,
+      "assetKind": "typescript",
+      "displayId": "TS-2",
+      "name": "CM",
+      "repoPath": "TS-2-CM.ts",
+      "parentAssetId": 80
+    },
+    {
+      "assetId": 106,
+      "assetKind": "typescript",
+      "displayId": "TS-3",
+      "name": "Chat n MCP",
+      "repoPath": "TS-3-Chat-n-MCP.ts",
+      "parentAssetId": 80
     }
   ]
 }
