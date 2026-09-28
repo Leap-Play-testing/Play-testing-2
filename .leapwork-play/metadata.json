@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-25T10:20:16.413Z",
+  "generatedAt": "2026-09-28T09:20:57.882Z",
   "repo": {
     "connectorId": 4,
     "repoSlug": "Leap-Play-testing/Play-testing-2",
@@ -18,6 +18,20 @@
       "name": "CB-1",
       "kind": "test-case",
       "repoPath": "TC-9-CB-1.spec.ts"
+    },
+    {
+      "assetId": 104,
+      "displayId": "TS-1",
+      "name": "CM Testing",
+      "kind": "typescript",
+      "repoPath": "TS-1-CM-Testing.ts"
+    },
+    {
+      "assetId": 107,
+      "displayId": "TS-4",
+      "name": "new-testing",
+      "kind": "typescript",
+      "repoPath": "TS-4-new-testing.ts"
     }
   ],
   "files": [
@@ -27,6 +41,22 @@
       "displayId": "TC-9",
       "name": "CB-1",
       "repoPath": "TC-9-CB-1.spec.ts",
+      "parentAssetId": 80
+    },
+    {
+      "assetId": 104,
+      "assetKind": "typescript",
+      "displayId": "TS-1",
+      "name": "CM Testing",
+      "repoPath": "TS-1-CM-Testing.ts",
+      "parentAssetId": 80
+    },
+    {
+      "assetId": 107,
+      "assetKind": "typescript",
+      "displayId": "TS-4",
+      "name": "new-testing",
+      "repoPath": "TS-4-new-testing.ts",
       "parentAssetId": 80
     }
   ]
